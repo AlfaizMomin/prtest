@@ -19,6 +19,7 @@
     <div class="form-group">
       <input type="text" class="form-control" [(ngModel)]="search" placeholder="Search Wholesaler by Name">
     </div>
+    
   </div>
   <div class="row">
     <div class="col-lg-4-sm-12" *ngFor="let customer of data  | filter:search">
